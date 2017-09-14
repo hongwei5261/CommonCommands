@@ -1,72 +1,72 @@
-ĞéÄâ»ú
+è™šæ‹Ÿæœº
 172.16.99.195  22322 rdadmin/password01!
 172.16.99.189  22322 rdadmin/kaixin.long   
 
-sshÔ¶³ÌµÇÂ½
+sshè¿œç¨‹ç™»é™†
 ssh name@remoteserver -p 2222
 sudo scp -p 22322 rdadmin@172.16.99.189:/home/rdadmin/bin/repo .
 
-Artifactory£º
+Artifactoryï¼š
 http://172.16.99.196:8081
 
-\\172.16.100.15\³£ÓÃÈí¼ş
+\\172.16.100.15\å¸¸ç”¨è½¯ä»¶
 -------------------------------------------------------------------
-RAPµØÖ·
+RAPåœ°å€
 http://172.17.193.108/workspace/myWorkspace.do?projectId=1#256
-ÕËºÅ:hongwei
+è´¦å·:hongwei
 Email:wei.hong@phicomm.com
-ÃÜÂë:ilCG74@$
+å¯†ç :ilCG74@$
 
 -------------------------------------------------------------------
-Ç©ÃûÃüÁî
+ç­¾åå‘½ä»¤
 java -jar signapk.jar platform.x509.pem platform.pk8 PhicommAfterSales.apk out.apk
 -------------------------------------------------------------------
-*#88#8  ¹¤³§Ä£Ê½
-*#06#  imei meidºÅ²éÑ¯
+*#88#8  å·¥å‚æ¨¡å¼
+*#06#  imei meidå·æŸ¥è¯¢
 -------------------------------------------------------------------
-ÕË»§¹ÜÀí ²âÊÔ·şÎñÆ÷Êı¾İ¿âµØÖ·
-114.141.173.17 4000  ÕËºÅ£ºroot feixun*123
-µç×Ó±£¿¨²âÊÔ·şÎñÆ÷µØÖ· SalesDataÊı¾İ¿âÀïÃæµÄuser_info
-114.141.173.27 10012 ÕËºÅ£ºfeixun   Fx@123456
+è´¦æˆ·ç®¡ç† æµ‹è¯•æœåŠ¡å™¨æ•°æ®åº“åœ°å€
+114.141.173.17 4000  è´¦å·ï¼šroot feixun*123
+ç”µå­ä¿å¡æµ‹è¯•æœåŠ¡å™¨åœ°å€ SalesDataæ•°æ®åº“é‡Œé¢çš„user_info
+114.141.173.27 10012 è´¦å·ï¼šfeixun   Fx@123456
 ---------------------------------------------------------------------
-WIFIÃÜÂë
-phicomm_test1  ÃÜÂë£ºfeixun*8469
+WIFIå¯†ç 
+phicomm_test1  å¯†ç ï¼šfeixun*8469
 ---------------------------------------------------------------------
-log´òÓ¡
+logæ‰“å°
 $ adb shell ps | grep phicare
 u0_a108   20364 380   945540 87392 SyS_epoll_ 00000000 S com.phicomm.phicare
 $ adb logcat | grep 20364
 08-22 18:26:44.112  2521  4597 I ActivityManager: Start proc 20364:com.phicomm.phicare/u0a108 for activity com.phicomm.phicare/.ui.me.SplashActivity
 ---------------------------------------------------------------------
-MeLauncher apk»ñÈ¡Â·¾¶£º\\172.16.100.15\Mobile_RD\ver_release\android\MeLauncher\Release
+MeLauncher apkè·å–è·¯å¾„ï¼š\\172.16.100.15\Mobile_RD\ver_release\android\MeLauncher\Release
 -------------------------------------------------------------------
-apk°²×°¹ı³Ì·ÖÎö
+apkå®‰è£…è¿‡ç¨‹åˆ†æ
 http://blog.csdn.net/mnorst/article/details/38727799
 
-classloader·ÖÎö
+classloaderåˆ†æ
 ----------------------------------------------------------------
 import static dagger.internal.Preconditions.checkNotNull;
 
 ----------------------------------------------------------------------------
 git clone -b master-no-emc gerrit:viroyal-elec/c1330
-C1330µÄ´úÂëÀ­È¡·½Ê½
+C1330çš„ä»£ç æ‹‰å–æ–¹å¼
 -----------------------------------------------------------------------------
-ÀûÓÃ¸É»õ¼¯ÖĞÓªÊı¾İ£¬gank   http://gank.io/api
+åˆ©ç”¨å¹²è´§é›†ä¸­è¥æ•°æ®ï¼Œgank   http://gank.io/api
 UI
-²à±ßÀ¸
-ÉÏÏÂ»¬¶¯ÊÕËõ
-ÏÂÀ­Ë¢ĞÂ£¬ÉÏÀ­¼ÓÔØ
+ä¾§è¾¹æ 
+ä¸Šä¸‹æ»‘åŠ¨æ”¶ç¼©
+ä¸‹æ‹‰åˆ·æ–°ï¼Œä¸Šæ‹‰åŠ è½½
 
-¿ò¼Ü
+æ¡†æ¶
 dagger
 mvp + retrofit
 
-XLog ¿´¿´
+XLog çœ‹çœ‹
 
-·ÖÏí
-×Ô¶¨Òå×¢½â
+åˆ†äº«
+è‡ªå®šä¹‰æ³¨è§£
 
-ÇĞ»»Ö÷Ìâ±³¾°
+åˆ‡æ¢ä¸»é¢˜èƒŒæ™¯
 
 
 -----------------------------------------------------------------------------
@@ -75,5 +75,3 @@ XLog ¿´¿´
 http://blog.csdn.net/android_hl/article/details/70455018
 
 https://ws1.sinaimg.cn/large/610dc034ly1fiz4ar9pq8j20u010xtbk.jpg
-
-

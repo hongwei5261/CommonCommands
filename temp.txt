@@ -38,5 +38,11 @@ https://github.com/oxoooo/mr-mantou-android.git
 https://github.com/JakeWharton/RxBinding.git
 https://github.com/sealtalk/sealtalk-android.git
 
-  
+     
 ---
+
+优化要用实际数据说话，借助测试工具进行检测（如：网易的Emmagee、腾讯的GT和APT，科大讯飞的iTest，Google的Battery Historian）
+
+
+数据库支持切换多账户时，不删除数据库
+目前插入数据库为一条一条插入，修改为批量插入

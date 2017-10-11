@@ -1,3 +1,8 @@
+代理
+国内：PROXY 172.16.99.195:8123
+日本：SOCKS5 172.16.99.45:1091
+辉的：SOCKS5 127.0.0.1:1080; PROXY 127.0.0.1:8123
+
 虚拟机
 172.16.99.195  22322 rdadmin/password01!
 172.16.99.189  22322 rdadmin/kaixin.long   
@@ -20,6 +25,9 @@ Email:wei.hong@phicomm.com
 -------------------------------------------------------------------
 签名命令
 java -jar signapk.jar platform.x509.pem platform.pk8 PhicommAfterSales.apk out.apk
+-------------------------------------------------------------------
+git 模板
+git config --global commit.template /home/weihong/doc/template/phicomm-template
 -------------------------------------------------------------------
 *#88#8  工厂模式
 *#06#  imei meid号查询
@@ -50,6 +58,9 @@ import static dagger.internal.Preconditions.checkNotNull;
 ----------------------------------------------------------------------------
 git clone -b master-no-emc gerrit:viroyal-elec/c1330
 C1330的代码拉取方式
+-----------------------------------------------------------------------------
+linux命令
+wget https://download.jetbrains.8686c.com/cpp/CLion-2016.2.2.tar.gz // 下载资源
 -----------------------------------------------------------------------------
 利用干货集中营数据，gank   http://gank.io/api
 UI

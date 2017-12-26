@@ -1,8 +1,0 @@
-[Desktop Entry]
-Version=1.0
-Name=Android Studio
-Exec=/home/weihong/AndroidDeveloper/android-studio/bin/studio.sh
-Terminal=false
-Type=Application
-Icon=/home/weihong/AndroidDeveloper/android-studio/bin/studio.png
-Categories=Development

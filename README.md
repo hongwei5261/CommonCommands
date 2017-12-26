@@ -1,7 +1,4 @@
 # CommonCommands
 
-elog.sh 为log打印脚本
+详见wiki文档
 
-[执行命令](http://www.jianshu.com/p/6bfe805273f2)：./elog.sh  com.xxx.xxx
-
-androidstudio.desktop app shortcut
